@@ -1,0 +1,33 @@
+.header {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .navbarList {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbarItem {
+    font-size: 16px;
+  }
+  
+  .navbarItem a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbarItem a:hover {
+    color: #666;
+  }
+  
+  
+  
